@@ -8,7 +8,7 @@ int plus (int a, b) {
 int main () {
     int sum;
     printf("Hello world1!\n");
-    sum = plus(1, 2);
+    sum = plus(1, 3);
     printf("sum = %d\n", sum);
     return 0;
 }
