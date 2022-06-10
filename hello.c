@@ -1,9 +1,14 @@
 #include <stdio.h>
+int plus (int a, b) {
+    int c;
+    c = a + b;
+    return c;
+}
+
 int main () {
-<<<<<<< HEAD
+    int sum;
     printf("Hello world1!\n");
-=======
-    printf("Hello world3!\n");
->>>>>>> 725d6c432d8a819b8483a8a29a57338dc55ec396
+    sum = plus(1, 2);
+    printf("sum = %d\n", sum);
     return 0;
 }
